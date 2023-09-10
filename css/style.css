@@ -7,12 +7,12 @@
 :root{
     --dgreen:#223633;
     --tgreen:#436d67;
-    --pgray:#929497;
+    --pgray:#57585a;
     --ff:     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     ;
     --gray: #666;
     --white:#fff;
-    --bluesky:#10baae;
+    --bluesky:#0e827a;
     --gold:#e0c48f;
     --ffmon: 'Montserrat', sans-serif;
 }
@@ -282,7 +282,7 @@ text-align: center;
 
   @media screen and (max-width:1220px) {
     .wrap-4{
-        background-image: 50%;
+        background-image: 50;
     }
 
     
