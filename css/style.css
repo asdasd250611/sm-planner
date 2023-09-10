@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*,::after,::before{
+    margin:0;
+    box-sizing: border-box;
+}
+:root{
+    --dgreen:#223633;
+    --tgreen:#436d67;
+    --pgray:#929497;
+    --ff:     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    ;
+    --gray: #666;
+    --white:#fff;
+    --bluesky:#10baae;
+    --gold:#e0c48f;
+    --ffmon: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+img{
+   vertical-align: bottom;
+}
+button{
+    padding: 0;cursor: pointer;
+}
+label{
+    display: inline-block;
+}
+[disabled]{cursor: not-allowed}
+ul {
+    list-style: none;padding: 0;
+}
+iframe{
+    border: 0;
+    width: 100%;
+}
+[class^="col-"]{
+   flex: 1 0 auto;padding: 0 15px;
+}
+.flex{
+    display: flex;
+}
+body{
+    font-family: var(--ff);
+    width: 100%;
+}
+.con{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
+.row{
+    display: flex ;
+    flex-flow: row wrap;
+    margin:  0 -15px;
+}
+
+.h-100{height: 100%;
+
+}
+.alcenter{
+    align-items: center;
+}
+.ff{font-family: var(--ff), sans-serif;}
+
+.space-bt{justify-content: space-between;}
+.justi-right{justify-content: right;}
+.justi-center{justify-content: center;}
+
+.text-center{
+    text-align: center;
+}
+.textmon{ font-family: var(--ffmon);}
+
+.col-1{flex-basis:8.33% ;max-width:8.33%;}
+.col-2{flex-basis:16.66% ;max-width:16.66%;}
+.col-3{flex-basis:25% ;max-width:25%;}
+.col-4{flex-basis:33.33% ;max-width:33.33%;}
+.col-5{flex-basis:41.66% ;max-width:41.66%;}
+.col-6{flex-basis:50% ;max-width:50%;}
+.col-7{flex-basis:58.33% ;max-width:58.33%;}
+.col-8{flex-basis:66.66% ;max-width:66.66%;}
+.col-9{flex-basis:75% ;max-width:75%;}
+.col-10{flex-basis:83.33% ;max-width:83.33%;}
+.col-11{flex-basis:91.66% ;max-width:91.66%;}
+.col-12{flex-basis:100% ;max-width:100%;}
+@font-face {
+    font-family:majesti;
+    src: url(../font/majesti-banner-book-webfont.woff2);
+font-display: swap;
+}
+
+header{
+    background-color: var(--dgreen);
+}
+h1 img {
+
+    line-height: 13px;
+    margin: 8px 0px;
+}
+nav ul li {
+    margin: 20px;
+}
+nav ul li a {
+    color: var(--white);
+    border: 3px solid white;
+    padding: 15px;
+    line-height: 43px;
+    border-radius: 8px;
+}
+
+/* #liour:hover{
+    background-color: var(--bluesky);
+    border-color:var(--bluesky) ;
+} */
+li .active{
+    background-color: var(--bluesky);
+    border-color:var(--bluesky) ;
+} 
+.last a {
+    border-color:var(--gold);
+    color: var(--gold);
+}
+.wrap-2{
+    
+    background: url(../img/bgs1.png)
+    no-repeat center top/cover;
+    text-align: center;
+}
+.wrap-2 p {
+    text-shadow: 2px 2px black;
+    padding: 120px;
+    font-size: 100px;
+    font-family: var(--ff);
+color: #fff;
+text-align: center;
+}
+.fontmaj{  font-family: var(--ff);}
+.wrap-2 a {
+   text-align: center;
+   display: inline-block;
+   color: var(--tgreen);
+   background-color: white;
+   /* border: 1px solid var(--bluesky); */
+   padding: 20px 50px;
+   align-items: center;
+   margin-bottom: 100px;
+   font-weight: 500;
+   border-radius: 5px;
+   font-size: 30px;
+  
+}
+.wrap-2 a:hover {
+    text-align: center;
+    display: inline-block;
+    color: white;
+    background-color: var(--dgreen);
+   
+ }
+.wrap-3 {
+    
+    background-color: var(--dgreen);
+}
+.wrap-3 H2 {
+    color: var(--gold);
+    line-height: 150px;
+    font-size: 30px;
+}
+.wrap-4 {
+    background: url(../img/BGWARP4.png) no-repeat;
+    background-color: #f0f0f2;
+    
+}
+.wrap-4 h2 {
+   color: var(--tgreen);
+   font-size: 40px;
+   line-height: 50px;
+   padding: 75px 0px 0px 0px;
+    
+}
+.wrap-4 p {
+   
+    color: var(--pgray);
+    padding: 60px 0px;
+    line-height: 25px;
+    
+ }
+ .wrap-4 a {
+   text-align: center;
+    padding: 16px 12px;
+    display: inline-block;
+    border: 3px solid var(--tgreen);
+    color: var(--tgreen);
+    margin: 0 0 10px 0;
+    border-radius: 8px;
+    font-weight: 500;
+    
+ }
+ .wrap-4 a:hover {
+   
+     color: white;
+     background-color: var(--tgreen) ;
+     
+     
+  }
+ .wrap-5 .col-3{
+    padding: 80px 20px;
+  
+
+ }
+ .wrap-5 .col-3 h3 {
+   font-size: 2rem;
+   line-height: 2rem;
+    padding: 25px 0px;
+    color: var(--tgreen);
+
+ }
+ .wrap-5 p {
+    line-height: 25px;
+    color: var(--pgray);
+ }
+ .wrap-6{
+    background-color: #f0f0f2;
+    
+ }
+ .wrap-6 h2{
+   color: var(--tgreen);
+   line-height: 60px;
+   font-size: 40px;
+    
+ }
+ .wrap-6 p{
+    color: var(--pgray);
+    line-height: 30px;
+     padding-bottom: 60px;
+  }
+  footer p {
+    padding: 20px 0 ;
+  }
+  .wrap-7{
+    margin: auto;
+  }
+.wrap-7 img {
+    margin: 20px;
+}
+  .soc{
+    margin: auto;
+  }
+  /* .wrap-7 ul li {
+   padding: 20px;
+   
+} */
+.wrap-7 ul li a {
+    display: inline-block;
+    /* border-right: 2px solid var(--pgray); */
+    padding: 0px 20px;
+    line-height: 20px;
+    margin: 10px;
+ }
+ .wrap-7 ul li:not(:first-child){ border-left: 1px solid ;}
+
+  footer {
+    background-color: var(--dgreen);
+    color: var(--white);
+ 
+   
+  }
+  .ourstory{
+    margin: 50px 20px 50px;
+  }
+  .ourstory h2{
+    font-size:40px;
+    color: var( --tgreen);
+    line-height: 30px;
+  }
+  .ourstory p{
+    margin: 50px 0 ;
+  }
+  
+
+  @media screen and (max-width:1220px) {
+    .wrap-4{
+        background-image: 50%;
+    }
+
+    
+  }
+  @media screen and (max-width:980px) {
+    .wrap-2 p{
+        font-size:60px;
+    }
+    .col-t-12{flex-basis:100% ;max-width:100%;}
+    .wrap-4{text-align: center;}
+.col-t-6{flex-basis:50% ;max-width:50%;}
+   
+  }
+  @media screen and (max-width:767px) {
+   
+    
+  }
+  @media screen and (max-width:460px) {
+    
+    .wrap-7 ul li a{
+        padding: 5px;
+    }
+    .col-m-12{flex-basis:100% ;max-width:100%;}
+    .wrap-5 .col-3{
+        padding: 35px 20px;
+      
+    
+     }
+     .wrap-4{
+        background: none;
+
+     }
+     .wrap-4 h2{
+       font-size: 30px;
+        
+     }
+     .wrap-3 h2{
+        line-height: 50px;
+     }
+    .wrap-2 p{
+        font-size: 40px;
+        padding: 35px;
+    }
+    .soc{margin: 10px -16px;}
+    nav{ display: none;}
+
+  }
